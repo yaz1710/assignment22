@@ -1,4 +1,6 @@
 ﻿foreach (string book in books)
 {
+    if (book == "Refactoring")
+        break;
     Console.WriteLine(book);
-}//6th answer session3 
+}//7th answer session3
