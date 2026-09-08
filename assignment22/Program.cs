@@ -1,5 +1,5 @@
-﻿string title = "clean code";
-string upperTitle = title.ToUpper();
-Console.WriteLine(title);
-Console.WriteLine(upperTitle); 
-//1st answer session4
+﻿string a = "Clean Code";
+string b = "Clean Code";
+bool same = ReferenceEquals(a, b);
+Console.WriteLine(same);
+//2nd answer session4
