@@ -1,5 +1,6 @@
-﻿string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-for (int i = 0; i < books.Length; i++)
+﻿int j = 0;
+while (j < books.Length)
 {
-    Console.WriteLine($"{i + 1}. {books[i]}");
-}//3rd answer session3
+    Console.WriteLine(books[j]);
+    j++;
+}//4th answer session3
