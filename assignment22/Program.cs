@@ -1,6 +1,7 @@
-﻿int j = 0;
-while (j < books.Length)
+﻿int count = 0;
+do
 {
-    Console.WriteLine(books[j]);
-    j++;
-}//4th answer session3
+    Console.WriteLine("Checking book...");
+    count++;
+} while (count < 3);
+//5th answer session3
