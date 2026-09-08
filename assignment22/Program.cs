@@ -1,3 +1,5 @@
-﻿sb.Replace("Book List", "Library");
-Console.WriteLine(sb.ToString());
-//4th answer session4
+﻿string title = "Clean Code";
+int pages = 464;
+string sentence = "Book: " + title + ", Pages: " + pages;
+Console.WriteLine(sentence);
+//5th answer session4
