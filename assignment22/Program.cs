@@ -1,6 +1,7 @@
-﻿foreach (string book in books)
+﻿static void PrintFirstBook()
 {
-    if (book == "The Pragmatic Programmer")
-        continue;
-    Console.WriteLine(book);
-}//8th answer session3
+    string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+    if (books.Length == 0)
+        return;
+    Console.WriteLine(books[0]);
+}//9th answer session3
