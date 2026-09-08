@@ -1,7 +1,5 @@
-﻿static void PrintFirstBook()
-{
-    string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-    if (books.Length == 0)
-        return;
-    Console.WriteLine(books[0]);
-}//9th answer session3
+﻿string title = "clean code";
+string upperTitle = title.ToUpper();
+Console.WriteLine(title);
+Console.WriteLine(upperTitle); 
+//1st answer session4
