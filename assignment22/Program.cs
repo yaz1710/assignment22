@@ -1,5 +1,7 @@
-﻿string a = "Clean Code";
-string b = "Clean Code";
-bool same = ReferenceEquals(a, b);
-Console.WriteLine(same);
-//2nd answer session4
+﻿using System.Text;
+
+StringBuilder sb = new StringBuilder();
+sb.Append("Book List");
+sb.Append(" - Updated");
+Console.WriteLine(sb.ToString());
+//3rd answer session4
