@@ -1,7 +1,3 @@
-﻿using System.Text;
-
-StringBuilder sb = new StringBuilder();
-sb.Append("Book List");
-sb.Append(" - Updated");
+﻿sb.Replace("Book List", "Library");
 Console.WriteLine(sb.ToString());
-//3rd answer session4
+//4th answer session4
