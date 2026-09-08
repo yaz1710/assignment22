@@ -1,7 +1,4 @@
-﻿int count = 0;
-do
+﻿foreach (string book in books)
 {
-    Console.WriteLine("Checking book...");
-    count++;
-} while (count < 3);
-//5th answer session3
+    Console.WriteLine(book);
+}//6th answer session3 
